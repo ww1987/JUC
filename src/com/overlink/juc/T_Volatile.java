@@ -10,6 +10,8 @@ import java.util.List;
  * 禁止指令重排序（CPU）
  * -DCL单例
  * -Double Check Lock
+ * -loadfenc原语指令
+ * -storefence原语指令
  * volatile 并不能保证多个线程同时修改running变量是所带来的不一致问题，也就是volatile不能替代synchronized
  */
 public class T_Volatile {
