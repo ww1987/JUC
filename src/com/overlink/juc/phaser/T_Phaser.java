@@ -22,7 +22,7 @@ public class T_Phaser {
     }
 
     public static void main(String[] args) {
-        phaser.bulkRegister(5);
+        phaser.bulkRegister(3);
 
         for (int i = 0; i < 5; i++) {
             new Thread( new Person("person"+i)).start();
